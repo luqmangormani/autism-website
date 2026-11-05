@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Autism</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Unpacking Autism</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a class="active" href="about.html">About Autism</a>
+      <a href="resources.html">Resources</a>
+      <a href="technology.html">Technology</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h2 class="title">What is Autism?</h2>
+    <div class="card">
+      <p>Autism, or Autism Spectrum Disorder (ASD), is a difference in how the brain develops. It affects how a person communicates, interacts with others, and experiences the world. It is called a spectrum because it looks different in every person.</p>
+    </div>
+    <div class="card">
+      <h3>Common Signs</h3>
+      <ul>
+        <li>Difficulty with eye contact or social conversation</li>
+        <li>Strong interest in specific topics</li>
+        <li>Preference for routines and sensitivity to change</li>
+        <li>Sensitivity to sound, light or touch</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>What is Neurodiversity?</h3>
+      <p>Neurodiversity means that brain differences, such as autism and ADHD, are natural variations of human minds and should be respected and supported.</p>
+    </div>
+
+    <h2 class="title">Myth vs Fact</h2>
+    <div class="card">
+      <p><strong>Myth:</strong> Autism is caused by bad parenting.</p>
+      <button class="myth-btn" onclick="toggleAnswer('a1')">Show Fact</button>
+      <p class="answer" id="a1">Fact: Autism is not caused by parenting. Research points to genetic and developmental factors.</p>
+    </div>
+    <div class="card">
+      <p><strong>Myth:</strong> Autistic people cannot succeed in work or study.</p>
+      <button class="myth-btn" onclick="toggleAnswer('a2')">Show Fact</button>
+      <p class="answer" id="a2">Fact: With the right support, many autistic people do very well in education and careers.</p>
+    </div>
+    <div class="card">
+      <p><strong>Myth:</strong> All autistic people have the same abilities.</p>
+      <button class="myth-btn" onclick="toggleAnswer('a3')">Show Fact</button>
+      <p class="answer" id="a3">Fact: Every autistic person is different, with their own strengths and challenges.</p>
+    </div>
+  </main>
+  <footer>Created by Muhammad Luqman Younis &middot; BS Information Technology, IUB</footer>
+  <script src="script.js"></script>
+</body>
+</html>
